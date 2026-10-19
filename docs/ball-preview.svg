@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="380" viewBox="0 0 1080 380" role="img" aria-label="悬浮球在浅色、深色和彩色壁纸上的效果">
+  <title>悬浮球在浅色、深色、彩色壁纸上的效果</title>
+  <desc>56dp 悬浮球：黑色 30% 圆底、白色 30% 描边、白色下一首 Logo，三块背景按同比例渲染。</desc>
+  <defs>
+    <linearGradient id="wallpaper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#284696" />
+      <stop offset="1" stop-color="#A0A0E6" />
+    </linearGradient>
+    <g id="ball">
+      <circle r="81" fill="#000000" fill-opacity="0.302" stroke="#FFFFFF" stroke-opacity="0.302" stroke-width="3.6" />
+      <path d="M -26.73,-31.59 L 7.29,0 L -26.73,31.59 Z" fill="#FFFFFF" />
+      <rect x="17.82" y="-31.59" width="8.91" height="63.18" rx="4.46" ry="4.46" fill="#FFFFFF" />
+    </g>
+  </defs>
+
+  <rect width="360" height="380" fill="#F2F4F8" />
+  <rect x="360" width="360" height="380" fill="#12161F" />
+  <rect x="720" width="360" height="380" fill="url(#wallpaper)" />
+
+  <use href="#ball" x="180" y="190" />
+  <use href="#ball" x="540" y="190" />
+  <use href="#ball" x="900" y="190" />
+</svg>

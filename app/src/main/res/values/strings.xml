@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">跳跳</string>
+    <string name="app_slogan">点一下跳过广告</string>
+
+    <string name="label_overlay">悬浮窗权限</string>
+    <string name="label_notification">通知权限</string>
+    <string name="label_audio">当前音频</string>
+
+    <string name="state_checking">检查中…</string>
+    <string name="state_granted">已授权</string>
+    <string name="state_go_grant">去开启 ›</string>
+    <string name="state_playing">正在播放</string>
+    <string name="state_no_audio">安静中</string>
+
+    <string name="btn_open">开启悬浮球</string>
+    <string name="btn_close">关闭悬浮球</string>
+
+    <string name="hint_default">小球会浮在所有应用之上，随时点一下跳过广告。\n拖动可移动（松手自动贴边），长按小球回到这里。</string>
+    <string name="hint_need_overlay">还差一步：允许「显示在其他应用上层」，返回后就能开启。</string>
+    <string name="hint_need_notify">建议开启通知权限，小球在后台运行时更不容易被系统清理。</string>
+
+    <string name="footer_version">v1.0.1 · Android 8.0+</string>
+
+    <string name="channel_name">悬浮球</string>
+    <string name="channel_desc">保持悬浮球在后台运行</string>
+    <string name="notif_title">跳跳正在运行</string>
+    <string name="notif_text">点一下悬浮球跳过广告</string>
+    <string name="notif_action_hide">隐藏悬浮球</string>
+
+    <string name="toast_shown">已开启，切到任意应用试试</string>
+    <string name="toast_hidden">悬浮球已关闭</string>
+    <string name="toast_need_overlay">先开启悬浮窗权限</string>
+    <string name="toast_no_audio">已发送，但没有音频在播放</string>
+</resources>
