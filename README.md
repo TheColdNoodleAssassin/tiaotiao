@@ -39,7 +39,7 @@
 
 ### 1. 安装
 
-从 [Releases](https://github.com/TheColdNoodleAssassin/TiaoTiao/releases) 下载 `TiaoTiao-x.y.z-debug.apk`，
+从 [Releases](https://github.com/TheColdNoodleAssassin/tiaotiao/releases) 下载 `TiaoTiao-x.y.z-debug.apk`，
 或自己构建（见下方「构建」）。
 
 ```bash
